@@ -14,7 +14,6 @@ h1 {
 }
 
 button {
-    font-family: "Terminal";
     font-size: large;
     border: 1px solid black;
     box-shadow: 1px 1px black;
@@ -252,9 +251,9 @@ table.upcoming-dates {
         padding-right: 0.5rem;
     }
 
-    .hidden-mobile {
+    /* .hidden-mobile {
         display: none;
-    }
+    } */
 
     #tooth {
         max-width: 100%;
