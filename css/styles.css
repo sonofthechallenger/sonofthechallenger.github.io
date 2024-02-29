@@ -14,6 +14,7 @@ h1 {
 }
 
 button {
+    font-family: "Terminal";
     font-size: large;
     border: 1px solid black;
     box-shadow: 1px 1px black;
