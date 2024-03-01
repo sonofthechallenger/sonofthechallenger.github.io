@@ -1,18 +1,18 @@
 @font-face {
     font-family: "Terminal";
-    src: url(../sonofthechallenger.github.io/fonts/terminal-grotesque_open.otf) 
+    src: url(./fonts/terminal-grotesque_open.otf) 
     format(OpenType);
 }
 
 @font-face {
     font-family: "Jogan";
-    src: url(../sonofthechallenger.github.io/fonts/JoganSoft.otf)
+    src: url(./fonts/JoganSoft.otf)
     format(TrueType);
 }
 
 @font-face {
     font-family: "Madou Futo Maru";
-    src: url(../sonofthechallenger.github.io/fonts/MadouFutoMaruGothic.ttf)
+    src: url(./fonts/MadouFutoMaruGothic.ttf)
     format(TrueType);
 }
 
