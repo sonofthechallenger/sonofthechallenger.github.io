@@ -6,23 +6,20 @@
 
 @font-face {
     font-family: "Jogan";
-    src: url(JoganSoft.otf)
-    format(TrueType);
+    src: url(JoganSoft.otf);
 }
 
 @font-face {
-    font-family: "Madou Futo Maru";
-    src: url(MadouFutoMaruGothic.ttf)
-    format(TrueType);
+    font-family: "Madou";
+    src: url(MadouFutoMaruGothic.ttf);
 }
-
 body {
     font-family: "Jogan";
     background-color: #FFF8D2;
 }
 
 h1 {
-    font-family: "Madou Futo Maru";
+    font-family: "Madou";
     font-size:large;
 }
 
