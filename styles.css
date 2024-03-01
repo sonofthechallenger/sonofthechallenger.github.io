@@ -1,18 +1,18 @@
 @font-face {
     font-family: "Terminal";
-    src: url(./fonts/terminal-grotesque_open.otf) 
+    src: url(terminal-grotesque_open.otf) 
     format(OpenType);
 }
 
 @font-face {
     font-family: "Jogan";
-    src: url(./fonts/JoganSoft.otf)
+    src: url(JoganSoft.otf)
     format(TrueType);
 }
 
 @font-face {
     font-family: "Madou Futo Maru";
-    src: url(./fonts/MadouFutoMaruGothic.ttf)
+    src: url(MadouFutoMaruGothic.ttf)
     format(TrueType);
 }
 
