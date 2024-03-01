@@ -26,7 +26,8 @@ button {
 
 #draggable {
     position: absolute;
-    cursor:grab; 
+    cursor: grab; 
+    z-index: 1;
 }
 
 .container {
@@ -96,6 +97,20 @@ button {
 
 #links > * {
     flex-grow: 1;
+}
+
+#foot {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    border: none;
+    box-shadow: none;
+    background-color: #FFF8D2;
+}
+
+#foot > * {
+    max-width: 100%;
 }
 
 .card-header {
@@ -189,6 +204,7 @@ table.upcoming-dates {
     max-width: 850px;
     width: 90%;
     margin: auto;
+    position: relative;
 }
 
 .about img {
@@ -239,6 +255,13 @@ table.upcoming-dates {
 #links img {
     display: flex;
     max-width: 100%;
+}
+
+.foot {
+    display: block;
+    border: none;
+    box-shadow: none;
+    background-color: #FFF8D2;
 }
 
 /*RESPONSIVE VIEWING ON MOBILE*/

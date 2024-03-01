@@ -1,5 +1,5 @@
 //DRAGGABLE IMAGE
-var draggable = document.getElementById('draggable');
+var draggableElements = document.getElementById('draggable');
 
 var posX = 0,
     posY = 0,
