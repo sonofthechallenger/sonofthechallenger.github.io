@@ -4,17 +4,30 @@
     format(OpenType);
 }
 
+@font-face {
+    font-family: "Jogan";
+    src: url(JoganSoft.otf)
+    format(TrueType);
+}
+
+@font-face {
+    font-family: "Madou Futo Maru";
+    src: url(MadouFutoMaruGothic.ttf)
+    format(TrueType);
+}
+
 body {
-    font-family: "Terminal";
+    font-family: "Jogan";
     background-color: #FFF8D2;
 }
 
 h1 {
+    font-family: "Madou Futo Maru";
     font-size:large;
 }
 
 button {
-    font-family: "Terminal";
+    font-family: "Madou Futo Maru";
     font-size: large;
     border: 1px solid black;
     box-shadow: 1px 1px black;
@@ -93,6 +106,8 @@ button {
     display: flex;
     flex-grow: 1;
     max-height: min-content;
+    background-image: url(clouds.gif);
+    background-repeat: round;
 }
 
 #links > * {
@@ -215,6 +230,12 @@ table.upcoming-dates {
     display: flex;
     justify-content: flex-end;
     margin-right: 1rem;
+}
+
+.photo-credit {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
 }
 
 /*.merch {
