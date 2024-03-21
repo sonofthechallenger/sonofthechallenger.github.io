@@ -10,7 +10,7 @@
 }
 
 @font-face {
-    font-family: "Madou Futo Maru";
+    font-family: "Madou";
     src: url(fonts/MadouFutoMaruGothic.ttf);
 }
 body {
@@ -24,7 +24,7 @@ h1 {
 }
 
 button {
-    font-family: "Madou Futo Maru";
+    font-family: "Madou";
     font-size: large;
     border: 1px solid black;
     box-shadow: 1px 1px black;
@@ -256,7 +256,7 @@ table.upcoming-dates {
 }
 
 .buttons {
-    font-family: "Madou Futo Maru";
+    font-family: "Madou";
     font-size: large;
     display: flex;
     flex: 1;
