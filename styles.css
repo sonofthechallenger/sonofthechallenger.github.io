@@ -256,6 +256,8 @@ table.upcoming-dates {
 }
 
 .buttons {
+    font-family: "Madou Futo Maru";
+    font-size: large;
     display: flex;
     flex: 1;
     flex-wrap: nowrap;
