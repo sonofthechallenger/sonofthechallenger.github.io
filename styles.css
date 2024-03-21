@@ -103,7 +103,7 @@ button {
     display: flex;
     flex-grow: 1;
     max-height: min-content;
-    background-image: url(clouds.gif);
+    background-image: url(images/clouds.gif);
     background-repeat: round;
 }
 
