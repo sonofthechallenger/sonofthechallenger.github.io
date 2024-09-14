@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Son of the Challenger</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/draggabilly@3/dist/draggabilly.pkgd.min.js"></script>
 </head>
 
 <body>
@@ -56,8 +58,7 @@
             <div class="card-header">
                 <h1>About Son of the Challenger</h1>
             </div>
-            <div id="draggable" class="hidden-mobile">
-                <script src="script.js"></script>
+            <div class="hidden-mobile draggable">
                 <img src="images/draggable-butterfly1.png" style="width: 300px;">
             </div>
             <div class="card-content about profile">
@@ -110,10 +111,12 @@
             </div>
         </div>
 
+
         <div id="foot">
             <img src="images/border-sword.png">
         </div>
 
     </div>
+    <script src="init.js"></script>
 </body>
 </html>

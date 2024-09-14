@@ -34,7 +34,7 @@ button {
     padding-top: 0.2rem;
 }
 
-#draggable {
+.draggable {
     position: absolute;
     cursor: grab; 
     z-index: 1;
