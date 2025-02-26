@@ -16,6 +16,7 @@
 body {
     font-family: "Jogan";
     background-color: #FFF8D2;
+    background-image: url(images/background.png);
 }
 
 h1 {
@@ -54,6 +55,7 @@ button {
 
 .container > * {
     background-color: #FEFDE3;
+    background-image: url(images/background.png);
     border: solid black;
     border-width: 2px;
     box-shadow: 2px 2px black;
@@ -119,6 +121,7 @@ button {
     border: none;
     box-shadow: none;
     background-color: #FFF8D2;
+    background-image: url(images/background.png);
 }
 
 #foot > * {
